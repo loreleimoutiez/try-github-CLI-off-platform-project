@@ -1,28 +1,29 @@
-name = "Joe"
-question = "Will I win the lottery?"
+import random
+name = "Loriz"
+question = "Est-ce que poudrier va bien ?"
 answer = ""
 
 random_number = random.randint(1, 9)
 # print(random_number)
 
 if random_number == 1:
-  answer = "Yes - definitely"
+  answer = "Oui car il dort"
 elif random_number == 2:
-  answer = "It is decidedly so"
+  answer = "Oui car il a bien mangé"
 elif random_number == 3:
-  answer = "Without a doubt"
+  answer = "Oui car il a joué avec son plumeau"
 elif random_number == 4:
-  answer = "Reply hazy, try again"
+  answer = "Oui car il a regardé les oiseaux par la fenêtre"
 elif random_number == 5:
-  answer = "Ask again later"
+  answer = "Oui car il a espionné les voisins"
 elif random_number == 6:
-  answer = "Better not tell you now"
+  answer = "Non parce que je me suis pas levée dès son premier miaou à 5h du matin"
 elif random_number == 7:
-  answer = "My sources say no"
+  answer = "Non car il mange la même saveur de pâtée depuis hier"
 elif random_number == 8:
-  answer = "Outlook not so good"
+  answer = "Non car un voisin l'a réveillé"
 elif random_number == 9:
-  answer = "Very doubtful"
+  answer = "Non car il n'a pas eu de friandise depuis 1 heure"
 else:
   answer = "Error"
   
